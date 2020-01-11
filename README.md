@@ -1,1 +1,1 @@
-All versions of the Arduino code for FRC team TORC's motor testor or 'hockey box'
+All versions of the Arduino code for FRC team 2137's motor tester or 'hockey box'
