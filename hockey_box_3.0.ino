@@ -21,8 +21,8 @@ int potpin2 = A1;
 int potpin3 = A2;
 int potpin4 = A3;
 
-int lcdSCL = A5; //Adresses the LCD's SDA and SCL ports to analog 4-5
-int lcdSDA = A4;
+LiquidCrystal_I2C lcd(0x27, 16, 2); //LCD SDA is always A4 and SCL is always A5
+
 
 int val1 = 0; //creates 4 blank variabls to be used later
 int val2 = 0;
